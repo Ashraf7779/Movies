@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color:#676565;
+    /* border: 2px solid; */
+    color: white;
+    padding: 0px;
+}
+ 
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+nav li{
+    padding:10px;
+    margin: 25px 20px;
+    font-size: 20px;
+}
+
+nav img{
+    margin-top: 15px;
+    padding-top:5px;
+    width: 100px;
+    height: 80px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+nav div{
+    display: flex;
+
+}
+nav p{
+    padding: 40px;
+    padding-left: 0px;
+    font-size: 35px;
+    color:rgb(247, 169, 51);
+}
+
+/* Index-Main */
+marquee{
+    color: rgb(63, 90, 14);
+}
+
+.index,.index-items{
+    background-color: rgb(245, 183, 27);
+}
+
+.index span{
+    font-size: 40px;
+    color: red;
+}
+
+.index h3{
+    color:red;
+    font-size: 25px;
+}
+
+.index-items{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.index-item{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.index img{
+    display: flex;
+    width:300px;
+    height:400px;
+    padding-left: 2px;
+    padding-right: 1px;
+}
+
+.index-item img{
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+/* Contact-Main */
+section{
+    background-color: rgb(217, 225, 228);;
+}
+
+.contact h1{
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(7, 7, 5);
+    margin-bottom: 25px;
+}
+
+.contact-items{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px
+}
+
+.contact-item{
+   padding: 10px;
+}
+
+.contact-item h4{
+
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.contact-item p{
+    padding: 10px;
+    padding-left: 0px;
+    margin: 10px;
+
+}
+
+
+.contact-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-item a:hover{
+    color: blue;
+}
+
+.contactus{
+    padding-bottom: 200px;
+    background-image: url(./contact-us-concept-free-photo.jpg);
+    background-size:cover;
+}
+
+.contactus-item{
+    text-align: center;
+}
+
+.contactus .form{
+    align-content: center;
+    padding-left: 550px;
+    padding-top: 100px;
+}
+
+.contactus label{
+    font-size: 25px;
+}
+
+.contactus button{
+    font-size: 25px;
+    padding: 3px;
+    margin-left: 110px;
+}
+
+.contactus button:hover{
+    color: white;
+    background-color: black;
+}
+
+
+footer{
+    background-color: #676565;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}

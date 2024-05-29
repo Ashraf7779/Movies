@@ -1,0 +1,38 @@
+/* div.a {background-color: skyblue;text-align: center;font-size: 30px; color: white}
+div.b {background-color: blanchedalmond;font-size: 20px;}
+div.c {background-color: antiquewhite;font-size: 20px;}
+*{
+    margin: 0px;
+    border: 0px;
+}
+.a
+{
+    background-color: tomato;color: white;border: 2px solid black;padding: 10px;margin: 50px;width: 200px;height: auto;border-radius: 20px;
+}
+.b{
+    background-color: tomato;color: white;border: 2px solid brown;padding: 10px;margin: 50px;width: 200px;height: auto;border-radius: 20px;
+}
+.c{
+    background-color: tomato;color: white;border: 2px solid pink;margin: 50px;padding: 10px;width: 200px;height: auto;border-radius: 20px;
+}
+.d{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} */
+<ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Gallery</li>
+    <li>Contact</li>
+</ul>
+ul{text-align: center;background-color: black;color: white;list-style: none;align-items: center;display: flex;
+    margin-right: 30px;
+    }
+    <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>

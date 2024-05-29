@@ -1,0 +1,217 @@
+ <!-- Header Section-->
+ <header>
+    <nav>
+        <div>
+        <img src="./movie-logo-png-10.jpg" alt="Movie" width="80" height="90"><p><b>Cinematrix</b></p>
+        </div>
+        <ul>
+            <li><a href="./index.htm">Home</a></li>
+            <li><a href="./movies_about.html">About</a></li>
+            <li><a href="./movies_page.html">Movies</a></li>
+            <li><a href="./movies_contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header> <br>
+
+<section class="cona">
+    <h1>GET IN TOUCH</h1>
+    <div id="divcon">
+    <div >
+        <P class="pcon">ADDRESS</P>
+        <P class="pconcon">
+        12-48, Check Post center<br>
+        Krishna District, Vijayawada<br>
+        Andhra Pradesh 520007
+        </P>
+    </div>
+
+    <div>
+        <P class="pcon">PHONE</P>
+        <P class="pconcon">
+            +91 6302767779
+        </P>
+    </div>
+
+    <div>
+        <P class="pcon">EMAIL</P>
+            <a class="pconcon" id="pcon" href="mailto:ashrafshaik969@gmail.com" title="mailto: ashrafshaik969@gmail.com">ashrafshaik969@gmail.com</a>
+        </P>
+    </div>
+    </div>
+</section> <br><br>
+<section class="conb">
+    <h1 class="contactus">CONTACT US</h1>
+<form action="">
+    <label for="fname">Name<br></label><input type="text" name="fname" required placeholder="First Name" size="9"> <input type="text" name="fname" required placeholder="Last Name" size="8"><br><br><br>
+    <label for="email">Mail <br></label><input type="text" name="email" required placeholder="someone@example.com" size="20"> <br><br><br>
+    <label for="comment">COMMENTS <br></label><input type="text" name="comments" size="50"> <br><br><br>
+    <button type="submit">SUBMIT</button>
+</form>
+</section>
+
+<!-- Css code -->
+body{
+    /*   */
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: #bdb9b9;
+    padding:10px;
+}
+
+nav {
+    display: flex;
+    padding: 0px;
+    justify-content:space-between;
+    /* border: 2px solid red;Should be deleted */
+}
+
+nav ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    /* border: 2px solid black; */
+}
+
+nav li{
+    padding: 10px;
+    margin: 5px 10px;
+    /* border: 2px solid green; */
+}
+
+nav div{
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+nav p{
+    font-size: 30px;
+    color: red;
+    padding-left: 10px;;
+}
+
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{background-color: black;}
+
+main section h1,.ind{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.cona{
+    background-color: rgba(107, 179, 152, 0.873);
+    color: white;
+    font-size: 20px;
+}
+#divcon{
+    display: flex;
+    justify-content: space-between;
+}
+.cona h1{
+    color: black;
+}
+
+.pcon{
+    color: black;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.pconcon{
+    padding: 20px;
+}
+
+#pcon {
+    text-decoration: none;
+    color: white;
+}
+
+#pcon:hover{
+    color: black;
+}
+
+.contactus{
+    color:black;
+    text-align: left;
+}
+
+.conb,form{
+    padding: 30px;
+    margin:0px;
+}
+.contact title{
+    font-size: 50px;
+}
+.conb{
+    background-image: url(./contact-us-concept-free-photo.jpg);
+    height: 95vh;
+    font-size: 20px;;
+}
+
+.conb form button{
+    color: white;
+    background-color: black;
+}
+
+footer{
+    /* border: 2px solid green; */
+    background-color: #bdb9b9;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+ <!-- Index HTML -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIES</title>
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+    <!-- Header Section-->
+    <header>
+        <nav>
+            <div>
+            <img src="./movie-netflix.gif" alt="Movie" width="80" height="90"><p><b>Cinematrix</b></p>
+            </div>
+            <ul>
+                <li><a href="./index.htm">Home</a></li>
+                <li><a href="./movies_about.html">About</a></li>
+                <li><a href="./movies_page.html">Movies</a></li>
+                <li><a href="./movies_contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header> <br><br>
+    <!-- Main Section-->
+    <main>
+        <section class="index">
+            <h1>Welcome! to Movie World
+            </h1>
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
+    </main>
+    <!-- Footer Section-->
+    <footer>
+        <p>&copy;All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
