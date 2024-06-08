@@ -126,8 +126,7 @@ form{
     color: rgb(0, 0, 0);
 }
 .signin-form a:hover{
-    background-color: #ffdd00;
-    color: rgb(16, 15, 15);
+    color: rgb(255, 217, 0);
 }
 .signin-form button{
     font-size: 20px;
