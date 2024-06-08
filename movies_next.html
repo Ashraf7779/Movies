@@ -1,0 +1,998 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #676565;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+nav ul a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+nav div{
+    display: flex;
+}
+nav p{
+    padding-top:35px;
+    font-size: 30px;
+    color:rgb(247, 169, 51);
+}
+
+nav img{
+    padding-top:10px;
+}
+/* header{
+    background-color:#676565;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    color: white;
+    padding: 0px;
+}
+ 
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+nav li{
+    padding:10px;
+    margin: 25px 20px;
+    font-size: 20px;
+}
+
+nav img{
+    margin-top: 15px;
+    padding-top:5px;
+    width: 100px;
+    height: 80px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+nav div{
+    display: flex;
+
+}
+nav p{
+    padding: 40px;
+    padding-left: 0px;
+    font-size: 35px;
+    color:rgb(247, 169, 51);
+} */
+
+/* Index-Main */
+marquee{
+    color: rgb(63, 90, 14);
+}
+
+.index,.index-items{
+    background-color: rgb(245, 183, 27);
+}
+
+.index span{
+    font-size: 40px;
+    color: red;
+}
+
+.index h3{
+    color:red;
+    font-size: 25px;
+}
+
+.index-items{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.index-item{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.index-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.index-item h2:hover{
+    color: red;
+}
+
+.index img{
+    display: flex;
+    width:300px;
+    height:400px;
+    padding-left: 2px;
+    padding-right: 1px;
+}
+
+.index-item img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-main{
+    background-color: rgb(224, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.getcontact{
+    border: 2px solid rgb(224, 255, 255);
+    border-right-color: black;
+    margin-left: 40px;
+}
+.getcontact h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.getcontact-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* .getcontact-item{
+    padding: 20px;
+} */
+
+.getcontact-item h4{
+    text-align: center;
+    font-size: 23px;
+}
+
+.getcontact-item p{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.getcontact-item a{
+    text-decoration: none;
+    color:black;
+}
+.getcontact-item a:hover{
+    color: rgb(56, 56, 224);
+}
+
+.contactus{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+
+.contactus-title h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.contactus-form{
+    padding: 40px;
+}
+.contactus-form label{
+    font-size: 25px;
+}
+.contactus-form button{
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.contactus-bottom{
+    background-image: url(./assets/movie-logo-png-10-removebg-preview.pn);
+    background-size: cover;
+}
+
+button #phonenum{
+    border: 2px solid black;
+    font-size:10px;
+}
+.contact-ids{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(84, 81, 81);
+}
+.contact-ids img{
+    width: 60px;
+    height: 60px;
+}
+
+/* About Main */
+.about-main{
+    background-color: rgb(229, 183, 68);
+    /* background-image: url(./assets/movie.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: transparent; */
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+}
+.about h1{
+    font-size: 45px;
+    color: red;
+}
+
+.about h2{
+    font-size: 30px;
+}
+
+.about h3{
+    font-size: 25px;
+}
+
+.about p{
+    font-size: 20px;
+}
+.about a{
+    color: red;
+}
+/* Movies Page*/
+.movies_header #Book_tickets{
+    border: 2px solid black;
+    background-color: rgb(232, 184, 191);
+    color: black;
+    border-radius: 20px;
+    padding:2px;
+}
+
+.movies_header #Book_tickets:hover{
+    color:red;
+    background-color: lightpink;
+}
+
+.movies{
+    background-color: rgb(229, 183, 68);
+}
+.Tollywood_movies{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Bollywood_movies{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Hollywood_movies{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movies_items img{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.movies_items h1{
+    text-align: center;
+}
+.movies #h1{
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+
+.Movie_info{
+    background-color: rgb(226, 182, 100);
+}
+.Tollywood_info{
+
+}
+
+/* Signup form  9class 7years*/
+.signin-body{
+    /* background-color: #313030; */
+    background-image: url(./assets/movies-theater.gif);
+    background-repeat: no-repeat;
+
+    transition: transparent;
+    background-size: cover;
+    border: 2px solid black;
+}
+form{
+    margin: 150px;
+}
+
+.signin-fieldset{
+    border: 2px solid black;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-radius: 25px;
+    transition: transparent;
+}
+
+.signin-fieldset h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.signin-fieldset div{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.signin-fieldset div p,a{
+    color: white;
+}
+.signin-fieldset div a:hover{
+    background-color: rgb(246, 246, 251);
+    border-radius: 20%;
+    color: red;
+}
+
+.signin-fieldset button{
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: rgb(209, 202, 202);
+    color: red;
+}
+
+footer{
+    background-color: #676565;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+} 
+
+
+
+<h3><marquee>Welcome! to Movie World <cite><strong><q>CINEMATRIX</q></strong></cite> here you can find watch Movies,& Movie Details, Booking tickets & much more. Be online for more updates and enjoy the content.</marquee><br><br></h3>
+          <section class="index">
+            <h3><span>|</span> New & Upcoming Movies @2024</h3> <br>
+            <section class="index-items">
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=dILuezzeAzk"><img src="./assets/kalki-2898-ad-et00352941-1714385436.avif">
+                    <h2>Kalki 2898 AD</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=-qWzWZ18jG4"><img src="./assets/indian 2.avif">
+                    <h2>Indian 2</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=Xcw4dkILsmk"><img src="./assets/pushpa 2.jpg">
+                    <h2>Pushpa 2</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=ePOglweqy7o"><img src="./assets/OG.jpg">
+                    <h2>OG</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=rc61YHl1PFY"><img src="./assets/DEVARA.jpg">
+                    <h2>Devara</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=o7VZXjgwohc"><img src="./assets/singham again.jpg">
+                    <h2>Singham Again</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=L-kiatWK3gE"><img src="./assets/deadpool3.webp">
+                    <h2>Deadpool & Wolverine</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=B1pvTpGSnH4"><img src="./assets/gamechanger.jpg">
+                    <h2>Game Changer</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=3_LbFzJiETc"><img src="./assets/gladiator 2.jpg">
+                    <h2>Gladiator II</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=200xxR4A0ik"><img src="./assets/kd-devil.jpg">
+                    <h2>KD- The Devil</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=nGKoXTI4Dgg"><img src="./assets/stree 2.jpg">
+                    <h2>Stree 2</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=tnes6j-01BA"><img src="./assets/goat.jpg">
+                    <h2>The Greatest of All Time</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=IHQQK_Wn5DM"><img src="./assets/Chandu-Champion-Movie-2024.webp">
+                    <h2>Chandu Champion</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=8X3uF80H5LU"><img src="./assets/munjya.jpg">
+                    <h2>Munjya</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=TtMjcP9cHIA"><img src="./assets/Mr.-Mrs.-Mahi-1.jpg">
+                    <h2>Mr. & Mrs. Mahi </h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=gjx-iHGXk9Q"><img src="./assets/Aquiteplaceoneday.jpg">
+                    <h2>A Quiet Place-Day One</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=4g2vZWbo52c"><img src="./assets/badboys.jpg">
+                    <h2>Bad Boys: Ride or Die</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=tq2HmozH_5Y"><img src="./assets/Double_iSmart.jpg">
+                    <h2>Double Ismart Shankar</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=LEjhY15eCx0"><img src="./assets/Inside-Out-2-poster.jpg">
+                    <h2>Inside Out 2</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=2RNsi86F7fU"><img src="./assets/jnu1.jpg">
+                    <h2>JNU</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=asGn7771Lq8"><img src="./assets/mafia.jpg">
+                    <h2>Mafia (Kannada)</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=teDFF-1u53w"><img src="./assets/sarfira.jpg">
+                    <h2>Sarfira</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=DQIg3Dntu9w"><img src="./assets/vedaa.jpg">
+                    <h2>Vedaa</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=SolhWny1zF4"><img src="./assets/Bikeriderssmall.jpg">
+                    <h2>The Bikeriders</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=QIxM1ALoGSA&t=3s"><img src="./assets/Twisters.avif">
+                    <h2>TWISTERS</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=8YnkDl05BTw"><img src="./assets/saripodha sanivaram.jpg">
+                    <h2>Saripodhaa Sanivaaram</h2></a>
+                </div>
+                <div class="index-item">
+                    <a href="https://www.youtube.com/watch?v=lIXZJ7cQPEI"><img src="./assets/Naga-Chaitanya-Sai-Pallavi-Thandel-movie-glimpse-teaser-release-postpone.jpg">
+                    <h2>Thandel</h2></a>
+                </div>
+            </section>
+          </section>
+<!-- About -->
+          <div class="about">
+            <h1>About Us</h1> <br>
+            <h2><b>Welcome to Cinematrix</b></h2> <br>
+            <p>At <em>Cinematrix</em>, we are passionate about movies. Our goal is to create a space where movie lovers can find comprehensive reviews, the latest news, and engaging discussions about their favorite films & Knowing about Movies of their favorite Heroes.</p>  
+        </div>
+
+        <div class="about">
+            <br><h3>What We Offer</h3>
+            <p>-In-depth Reviews:</b> Our expert critics provide thoughtful and detailed reviews of the latest films.</p>
+            <p>-Up-to-Date News:</b> Stay informed with our timely coverage of movie industry news.</p>
+        </div>
+        <div class="about">
+           <br> <h3>Our Audience</h3>
+            <p>We cater to everyone from casual moviegoers to hardcore cinephiles. Whether you're looking for a new film to watch or want to deep-dive into film analysis, <em>Cinematrix</em> is your go-to destination.</p>
+        </div>
+        <div class="about">
+            <br><h3>Get Involved</h3>
+            <p>Join our community today by signing up for an account. Share your own reviews, participate in discussions, and follow us on social media to stay connected.</p>
+        </div>
+        <div class="about">
+            <br><h3>Future Plans</h3>
+            <p>At <em>Cinematrix</em>, we are constantly evolving to provide our audience with the best possible experience. Here is a sneak peek at some of the exciting plans we have for the future:</p>
+        </div>
+        <div class="about">
+            <br><h3>Contact Us</h3>
+            <p>We love hearing from our visitors. Reach out to us at Email/Phone or connect with us on our Social Media <a href="./movies_contact.html">Links</a></p><br>
+        </div>
+<!-- Movies -->
+<h1 id="h1">Tollywood Actors</h1> <br>
+        <section class="Tollywood_movies">
+            <div class="movies_items" >
+                <a href="https://en.wikipedia.org/wiki/Prabhas"><img src="./assets/pb.webp" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name:Uppalapati Venkata Suryanarayana Prabhas Raju,
+            Born:23 OCTOBER 1979,
+            No.Of.Movies: 28,
+            Debute Movie: Eeshwar (2002)">Prabhas</h1><br>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Mahesh_Babu"><img src="./assets/maheshbabu.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name:Ghattamaneni Mahesh Babu,
+            Born:9 August 1975,
+            No.Of.Movies: 28,
+            Debute Movie: Rajakumarudu (1999)">Mahesh Babu</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Pawan_Kalyan"><img src="./assets/pk.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name:Konidela Pawan Kalyan,
+            Born:2 September 1971,
+            No.Of.Movies: 29,
+            Debute Movie: Akkada Ammayi Ikkada Abbayi (1996)">Pavan Kalyan</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Ram_Charan"><img src="./assets/rc2.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name:Konidela Ram Charan Teja,
+            Born:27 March 1985,
+            No.Of.Movies: 16,
+            Debute Movie: Chirutha (2007)">Ram charan</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/N._T._Rama_Rao_Jr."><img src="./assets/ntr2.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name:Nandamuri Taraka Rama Rao Jr,
+                Born:20 May 1983,
+                No.Of.Movies: 31,
+                Debute Movie: Ninnu Choodalani (2001)">NTR</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Allu_Arjun"><img src="./assets/aa.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name:Allu Arjun,
+                Born:8 April 1983,
+                No.Of.Movies: 21,
+                Debute Movie: Gangotri (2003)">Allu Arjun</h1> 
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Nani_(actor)"><img src="./assets/nani.jpeg" alt="" width="250px" height="350px"> </a>
+                <h1 title=
+                "Full_Name:Ghanta Naveen Babu,
+                Born:24 February 1984,
+                No.Of.Movies: 30,
+                Debute Movie: Ashta Chamma (2008)">Nani</h1> <br> 
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Ravi_Teja"><img src="./assets/raviteja.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Ravi Shankar Raju Bhupatiraju,
+                Born:26 January 1968,
+                No.Of.Movies: 47,
+                Debute Movie: Nee Kosam (1999)">Ravi Teja</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Ram_Pothineni"><img src="./assets/ram1.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Ram Pothineni,
+                Born:15 May 1988,
+                No.Of.Movies: 21,
+                Debute Movie: Devadasu (2006)">Ram Pothineni</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Nagarjuna_(actor)"><img src="./assets/nagarjuna.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Akkineni Nagarjuna Rao,
+                Born:29 August 1959,
+                No.Of.Movies: 47,
+                Debute Movie: Vikram (1986)">Nagarjuna</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Chiranjeevi"><img src="./assets/boss.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Konidela Siva Sankara Vara Prasad,
+                Born:22 August 1955,
+                No.Of.Movies: 157,
+                Debute Movie: Pranam Khareedu (1978)">Chiranjeevi</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Nandamuri_Balakrishna"><img src="./assets/bk1.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Nandamuri Balakrishna,
+                Born: 10 June 1960,
+                No.Of.Movies: 109,
+                Debute Movie: Tatamma Kala (1974)">BalaKrishna</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Naga_Chaitanya"><img src="./assets/nagachaitanya.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Akkineni Naga Chaitanya,
+                Born: 23 November 1986,
+                No.Of.Movies: 23,
+                Debute Movie: Josh (2009)">Naga Chaitanya</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Vijay_Deverakonda"><img src="./assets/vijaydevarakonda.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Deverakonda Vijay Sai,
+                Born: 9 May 1989,
+                No.Of.Movies: 14,
+                Debute Movie: Nuvvila (2011)">Vijay Devarakonda</h1> <br>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Gopichand_(actor)"><img src="./assets/gopichand.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Tadimalla Gopichand,
+                Born: 12 June 1979,
+                No.Of.Movies: 30,
+                Debute Movie: Tholi Valapu (2001)">GopiChand</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Varun_Tej"><img src="./assets/varun.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name:  Varun Tej Konidela,
+                Born: 19 January 1990,
+                No.Of.Movies: 13,
+                Debute Movie: Mukunda (2014)">Varun Tej</h1>
+            </div>
+            <div class="movies_items">
+                <a  href="https://en.m.wikipedia.org/wiki/Akhil_Akkineni"><img src="./assets/aakhil.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Akkineni Akhil,
+                Born: 8 April 1994,
+                No.Of.Movies: 8,
+                Debute Movie: Akhil: The Power of Jua (2015)">Akhil</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Nithiin"><img src="./assets/nithin.jpeg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Nithiin Reddy,
+                Born: 30 March 1983,
+                No.Of.Movies: 8,
+                Debute Movie: Akhil: The Power of Jua (2015)">Nithin</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Vishwak_Sen"><img src="./assets/viswak.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Vishwaksen</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Sharwanand"><img src="./assets/sharwanand.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Sharwanand</h1>
+            </div>
+            <div class="movies_items">
+                <img src="./assets/saidaramtej.jpeg" alt="" width="250px" height="350px">
+                <h1>Sai Dharam tej</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Naga_Shaurya"><img src="./assets/nagasourya.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Naga Sourya</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Bellamkonda_Sreenivas"><img src="./assets/bellam1.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>BellamKonda Srinivas</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Allu_Sirish"><img src="./assets/allusirish.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Allu Sirish</h1>
+            </div>
+        </section> <br>
+
+        <h1 id="h1">Bollywood Actors</h1> <br> <br>
+        <section class="Bollywood_movies">     
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Salman_Khan"><img src="./assets/srk.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Shah Rukh Khan</h1><br>
+            </div>
+            <div class="movies_items">
+                <a href=""><img src="./assets/salman.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Salman Khan</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Amitabh_Bachchan"><img src="./assets/amithab.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Amitabh Bachchan</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Akshay_Kumar"><img src="./assets/akshay.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Akshay Kumar</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Aamir_Khan"><img src="./assets/aamir khan.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Aamir Khan</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Ajay_Devgn"><img src="./assets/ajay.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Ajay Devgn</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Sushant_Singh_Rajput"><img src="./assets/sushanth.jpeg" alt="" width="250px" height="350px"> </a>
+                <h1>Sushant Singh Rajput</h1> <br>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Hrithik_Roshan"><img src="./assets/rithik.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Hrithik Roshan</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Ranbir_Kapoor"><img src="./assets/ranbir.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Ranbir Kapoor</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Anil_Kapoor"><img src="./assets/anil.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Anil Kapoor</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Manoj_Bajpayee"><img src="./assets/manoj.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Manoj Bajpayee</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Ranveer_Singh"><img src="./assets/ranveer.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Ranvir Singh</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Saif_Ali_Khan"><img src="./assets/saif.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Saif Ali Khan</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Randeep_Hooda"><img src="./assets/randeer hooda.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Randeep Hooda</h1> <br>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Rajkummar_Rao"><img src="./assets/rajkumar.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Rajkummar Rao</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Jackie_Shroff"><img src="./assets/jackie.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Jackie Shroff</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Bobby_Deol"><img src="./assets/bobby.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Bobby Deol</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Tiger_Shroff"><img src="./assets/tiger.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Tiger Shroff</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Vicky_Kaushal"><img src="./assets/vicky.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Vicky Kaushal</h1> <br>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Ayushmann_Khurrana"><img src="./assets/ayushman.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Ayushmann Khurrana</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/John_Abraham"><img src="./assets/john.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>John Abraham</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Kartik_Aaryan"><img src="./assets/karthik.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Karthik Aryan</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Sunny_Deol"><img src="./assets/sunny.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Sunny Deol</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Emraan_Hashmi"><img src="./assets/imran.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Emraan Hamshi</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Ishaan_Khatter"><img src="./assets/ishaan.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Ishaan Khattar</h1> <br> 
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Irrfan_Khan"><img src="./assets/irfan.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Irfan khan</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Nawazuddin_Siddiqui"><img src="./assets/nawaz.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Nawazuddin Siddiqui</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Varun_Dhawan"><img src="./assets/varundhavan.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Varun Dhavan</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Aditya_Roy_Kapur"><img src="./assets/aditya.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Aditya Roy Kapoor</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Arjun_Kapoor"><img src="./assets/arjun.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Arjun Kapoor</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Shahid_Kapoor"><img src="./assets/shahid1.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Shahid kapoor</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Sidharth_Malhotra"><img src="./assets/siddharth.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Sidharth Malhotra</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Naseeruddin_Shah"><img src="./assets/naseer.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Naseeruddin Shan</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Amrish_Puri"><img src="./assets/amrish.jpeg" alt="" width="250px" height="350px"></a>
+                <h1>Amrish Puri</h1>
+            </div>
+        </section>
+
+        <br><h1 id="h1">Hollywood Actors</h1> <br> 
+        <section class="Hollywood_movies">
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Johnny_Depp"><img src="./assets/Johnny Depp.jpg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: John Christopher Depp II,
+                Born: 9 June 1963,
+                No.Of.Movies: 70,
+                Debute Movie: A Nightmare on Elm Street (1984)">Johnny Depp</h1> <br>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Al_Pacino"><img src="./assets/Al Pacino.jpg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Alfredo James Pacino,
+                Born: 25 April 1940,
+                No.Of.Movies: 58,
+                Debute Movie: Me, Natalie (1969)">James Pacino</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Robert_De_Niro"><img src="./assets/robert1.webp" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Robert Anthony De Niro Jr,
+                Born: 17 August 1943,
+                No.Of.Movies: 91,
+                Debute Movie: The Wedding Party (1969)">Robert Anthony</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Kevin_Spacey"><img src="./assets/kenvin.webp" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Kevin Spacey Fowler,
+                Born:  26 July 1959,
+                No.Of.Movies: 46,
+                Debute Movie: Heartburn (1986)">Kevin Spacey</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Denzel_Washington"><img src="./assets/denzel.jpg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Denzel Hayes Washington Jr,
+                Born:  28 December 1954,
+                No.Of.Movies: 60,
+                Debute Movie: Carbon Copy (1981)">Denzel Washington</h1> 
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Russell_Crowe"><img src="./assets/russell.jpg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Russell Ira Crowe,
+                Born:  7 April 1964,
+                No.Of.Movies: 52,
+                Debute Movie: The Crossing (1990)">Russell Crow</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Brad_Pitt"><img src="./assets/William Bradley Pitt.jpg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: William Bradley Pitt,
+                Born:  18 December 1963,
+                No.Of.Movies: 72,
+                Debute Movie: Hunk (1987)">Brad Pitt</h1>
+            </div>
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Leonardo_DiCaprio"><img src="./assets/Leonardo DiCaprio.jpg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Leonardo Wilhelm DiCaprio,
+                Born:  11 November 1974,
+                No.Of.Movies: 35,
+                Debute Movie: Critters 3 (1991)">Leonardo DiCaprio</h1>
+            </div> 
+            <div class="movies_items">
+                <a href="https://en.m.wikipedia.org/wiki/Tom_Cruise"><img src="./assets/Tom Cruise.jpg" alt="" width="250px" height="350px"></a>
+                <h1 title=
+                "Full_Name: Leonardo Wilhelm DiCaprio,
+                Born:  11 November 1974,
+                No.Of.Movies: 35,
+                Debute Movie: Critters 3 (1991)">Tom Cruise</h1>
+            </div> 
+        </section>
+
+        <section class="Kollywood_movies">
+        </section>
+
+<!-- contact -->
+<section class="contact-main">
+    <section class="getcontact">
+        <h1>GET IN TOUCH</h1>
+        <div class="getcontact-items">
+            <div class="getcontact-item">
+                <h4>ADDRESS</h4>
+                <P>
+                    <b>Head-Office:</b> <br><br>
+                    1/34 c-56,Kukatpally,<br>
+                    HITEC District, Hyderabad,<br>
+                    Telengana 500081
+                </P>
+                <P>
+                    
+                    <b>Vij-Branch:</b> <br><br>
+                    12-48, Check Post center,<br>
+                    Krishna District, Vijayawada,<br>
+                    Andhra Pradesh 520007
+                </P>
+            </div >
+            <div class="getcontact-item">
+                <h4>PHONE</h4>
+                <p>
+                    <b>Office:</b> <br> <br>
+                    +91 6302767779
+                </P>
+                <P>
+                    <b>Landline:</b> <br><br>
+                    +91 9949398788
+                </P>
+            </div>
+            <div class="getcontact-item">
+                <h4>EMAIL</h4>
+                <p><a  href="mailto:ashrafshaik969@gmail.com" title="mailto: ashrafshaik969@gmail.com">ashrafshaik969@gmail.com</a></p>
+            </div>
+         </div>
+    </section>
+    <section class="contactus">
+        <div class="contactus-title">
+            <h2>CONTACT US</h2>
+        </div>
+        <div class="contactus-form">
+                <label for="fname">Name<br></label><input type="text" name="fname" required placeholder="First Name" size="10"> <input type="text" name="fname" required placeholder="Last Name" size="10"><br><br><br>
+                <label for="email">Mail <br></label><input type="text" name="email" required placeholder="someone@example.com" size="25 25"> <br><br><br>           
+                <label for="ph">Phone Number <br></label><input type="text" value=" +91" size="1" disabled><input type="text" required placeholder="Enter phone number"> <br><br><br>         
+                <label for="comments">Comments</label><br><textarea name="comments" rows="6" cols="35"></textarea><br><br>
+                <a href=""><button type="text" value="submit">SUBMIT</button></a>
+        </div>
+    </section>
+</section>
+<section class="contact-ids">
+    <a href="https://www.instagram.com/_killer__7779/"><img src="./assets/insta.webp"></a>
+    <a href="https://www.linkedin.com/in/ashraf-shaik-2a873924a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ><img src="./assets/linkdin.png"></a>
+    <a href="https://www.facebook.com/" ><img src="./assets/FB.png"></a>
+</section>
