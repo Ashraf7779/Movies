@@ -91,6 +91,7 @@ nav a:hover{
 /* Signup/login */
 .signin-body{
     background-image: url(./assets/movies-theater.gif);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
