@@ -88,10 +88,14 @@ nav a:hover{
     padding-left: 3px;
     border-radius: 10px;
 }
+.index-item img:hover{
+    filter:brightness();
+    transform: scale(1.03);
+}
 /* Signup/login */
 .signin-body{
-    background-image: url(./assets/gold-3d.gif);
-    /* background-attachment: fixed; */
+    /* background-image: url(./assets/gold-3d.gif); */
+    background-image: url(./assets/bg_3.gif);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,13 +110,19 @@ form{
     background-attachment: fixed;
     text-align: center;
     font-size: 25px;
+    border: 2px solid white;
+    box-shadow: 10px 10px 10px 5px lightsalmon;
+    width: 500px;
+    /* margin-left: 520px; */
+    margin: 60px auto 0;
+    margin-top: 140px;
 }
 .signin-form h1{
     color: rgb(0, 0, 0);
     font-size: 40px;
 }
 .signin-form label{
-    color: black;
+    color:black;
     font-weight: bold;
 }
 .signin-form span{
@@ -126,10 +136,11 @@ form{
     color: rgb(0, 0, 0);
 }
 .signin-form a:hover{
-    color: rgb(255, 217, 0);
+    color: rgb(255, 255, 0);
 }
 .signin-form button{
     font-size: 20px;
+    border-radius: 15px;
 }
 .signin-form button:hover{
     background-color: rgb(15, 14, 14);
@@ -181,7 +192,7 @@ form{
     color: red;
     text-align: center;
 }
-.Tollywood_movies,.Bollywood_movies,.Hollywood_movies{
+.Tollywood_movies,.Bollywood_movies,.Hollywood_movies,.Kollywood_movies{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -192,6 +203,11 @@ form{
     height:400px;
     padding-left: 3px;
     border-radius: 10px;
+}
+.movies_items img:hover{
+    filter:brightness();
+    transform: scale(1.03);
+
 }
 /* Contact page */
 .contact-main{
@@ -248,6 +264,7 @@ form{
     width: 60px;
     height: 60px;
 }
+/* Login */
 .login{
     /* background-color: rgb(238, 187, 58); */
     background-image: url(./assets/g1login.webp);
@@ -279,6 +296,16 @@ form{
 }
 .login-fieldset span{
     text-decoration: underline;
+}
+.resume_body{
+    background-image: linear-gradient(to bottom right,blue,red);
+    animation-name: animie;
+    animation-duration: 0.5s;
+}
+
+@keyframes animie{
+    from {background-image: linear-gradient(to bottom right,blue,red);}
+    to {background-image: linear-gradient(to bottom right,green,yellow);}
 }
 
 footer{
