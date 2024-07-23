@@ -53,7 +53,7 @@ nav a:hover{
 .index-main q{
     color: rgb(247, 13, 13);
 }
-.index-section{
+.index-main{
     background-color: rgb(245, 183, 27);
 }
 .index-section h3{
@@ -215,35 +215,58 @@ form{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.contactus,.getcontact{
-    /* border: 2px solid red; */
-    padding-left: 20px;
-}
-.contactus-form,.getcontact-items{
-    padding-left: 80px;
-    font-size: 25px;
-    padding-top: 0px;
-}
-.contactus h1,.getcontact h1{
-    font-size: 30px;
-}
-.getcontact-items{
+.con{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
 }
-.getcontact{
-    border-top: 5px solid white;
+.con h1{
+    font-size: 40px;
+    text-align: center;
 }
-.contactus-form button{
+.Reach{
+    border: 2px solid black;
+    border-radius: 2.5%;
+    padding: 40px;
+    background-color: rgb(243, 224, 118);
+    box-shadow: 20px 10px 10px 10px black;
+    /* margin-top: 40px; */
+    /* margin-right: 160px; */
+}
+.Reach button{
+    margin-left: 80px;
+}
+.Contact{
+    border: 2px solid black;
+    border-radius: 2.5%;
+    padding:30px;
+    background-color: rgb(243, 224, 118);
+    box-shadow: 20px 10px 10px 10px black;
+}
+
+.Contact:hover{
+    background-color: rgb(217, 198, 27);
+    color: black;
+    box-shadow: 20px 10px 10px 10px rgb(114, 97, 0);
+    transform: scale(1.03);
+}
+.Reach:hover{
+    background-color: rgb(217, 198, 27);
+    color: black;
+    box-shadow: 20px 10px 10px 10px rgb(114, 97, 0);
+    /* filter:brightness(); */
+    transform: scale(1.03);
+}
+.Contact h3{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.Contact b{
     font-size: 20px;
-    margin-left: 50px;
 }
-.contactus-form button:hover{
-    background-color: black;
-    color: white;
-    border: 1px solid red;
+.Reach b{
+    font-size: 20px;
 }
 .contact-ids img{
     width:50px;
@@ -254,13 +277,22 @@ form{
     display: flex;
     justify-content: space-between;
 }
-.marquee-body{
-    background-color: #c3bbbb;
+.Reach button{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
 }
-.contact-ids img:hover{
+.Reach button:hover{
     background-color: black;
+    color: white;
+    filter:brightness();
+    transform: scale(1.33);
 }
-
+.con-form{
+    margin: 0px;
+}
+.Reach h1{margin-top: 0px;}
 /* Login */
 .login{
     /* background-color: rgb(238, 187, 58); */
@@ -295,20 +327,21 @@ form{
     text-decoration: underline;
 }
 .resume_body{
-    background-image: linear-gradient(to bottom right,blue,red);
-    animation-name: animie;
-    animation-duration: 0.5s;
+    background-color: rgb(255, 255, 255);
+    /* animation-name: animie; */
+    /* animation-duration: 0.5s; */
 }
 
-@keyframes animie{
+/* @keyframes animie{
     from {background-image: linear-gradient(to bottom right,blue,red);}
     to {background-image: linear-gradient(to bottom right,green,yellow);}
-}
+} */
 
 footer{
     background-color:  #676565;
     color: white;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     clear: both;
+    /* margin-top: 150px; */
 }
