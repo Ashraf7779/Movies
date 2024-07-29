@@ -211,9 +211,10 @@ form{
 }
 /* Contact page */
 .contact-body{
-    background-image: url(./assets/contact-bg.jpg);
+    background-image: url(./assets/con-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    /* background-color: gold; */
 }
 .con{
     display: flex;
@@ -244,7 +245,7 @@ form{
     background-color: rgb(243, 224, 118);
     box-shadow: 20px 10px 10px 10px black;
 }
-
+.Contact div{margin :20px;}
 .Contact:hover{
     background-color: rgb(217, 198, 27);
     color: black;
