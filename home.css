@@ -43,6 +43,9 @@ nav a{
 
 nav a:hover{
     background-color: black;
+    border: 3px solid rgb(204, 25, 25);
+    border-radius: 30%;
+    padding: 10px;
 }
 /* Index Main */
 
@@ -229,7 +232,7 @@ form{
 .Reach{
     border: 2px solid black;
     border-radius: 2.5%;
-    padding: 40px;
+    padding: 30px;
     background-color: rgb(243, 224, 118);
     box-shadow: 20px 10px 10px 10px black;
     /* margin-top: 40px; */
@@ -241,7 +244,7 @@ form{
 .Contact{
     border: 2px solid black;
     border-radius: 2.5%;
-    padding:60px;
+    padding: 20px;
     background-color: rgb(243, 224, 118);
     box-shadow: 20px 10px 10px 10px black;
 }
