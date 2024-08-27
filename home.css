@@ -6,6 +6,8 @@ body{
 header{
     background-color:  #676565;
     /* padding:10px; */
+    /* position: sticky;
+    top: 0; */
 }
 nav{
     display: flex;
@@ -57,7 +59,8 @@ nav a:hover{
     color: rgb(247, 13, 13);
 }
 .index-main{
-    background-color: rgb(245, 183, 27);
+    /* background-color: rgb(245, 183, 27); */
+    background-color: gold;
 }
 .index-section h3{
     color: red;
@@ -151,7 +154,7 @@ form{
 }
 /* About */
 .about-main{
-    background-color: rgb(229, 183, 68);
+    background-color: rgb(245, 206, 11);
     padding-left: 10px;
     display: flex;
     flex-direction: row;
@@ -212,12 +215,13 @@ form{
     transform: scale(1.03);
 
 }
-/* Contact page */
+/* Contact */
 .contact-body{
-    background-image: url(./assets/con-bg.png);
+    /* background-image: url(./assets/con-bg.webp); */
     background-repeat: no-repeat;
     background-size:cover;
-    /* background-color: gold; */
+    margin-bottom: 0px;
+      background-color: gold;
 }
 .con{
     display: flex;
@@ -229,26 +233,33 @@ form{
     font-size: 40px;
     text-align: center;
 }
-.Reach{
-    border: 2px solid black;
-    border-radius: 2.5%;
-    padding: 30px;
-    background-color: rgb(243, 224, 118);
-    box-shadow: 20px 10px 10px 10px black;
-    /* margin-top: 40px; */
-    /* margin-right: 160px; */
-}
-.Reach button{
-    margin-left: 80px;
-}
 .Contact{
     border: 2px solid black;
     border-radius: 2.5%;
     padding: 20px;
     background-color: rgb(243, 224, 118);
-    box-shadow: 20px 10px 10px 10px black;
+    box-shadow: 10px 10px 10px 5px black;
+    margin-left: 40px;
+    margin-top: 40px;
 }
-.Contact div{margin :20px;}
+.Reach{
+    border: 2px solid black;
+    border-radius: 2.5%;
+    padding: 30px;
+    background-color: rgb(243, 224, 118);
+    box-shadow: 10px 10px 10px 5px black;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.con-form{
+    margin: 0px;
+}
+.Reach button{
+    margin-left: 80px;
+}
+.Contact div{
+    margin :20px;
+}
 .Contact:hover{
     background-color: rgb(217, 198, 27);
     color: black;
@@ -273,8 +284,8 @@ form{
     font-size: 20px;
 }
 .contact-ids img{
-    width:50px;
-    height:50px;
+    width:60px;
+    height:60px;
 }
 .contact-ids{
     /* background-color: #c3bbbb; */
@@ -296,7 +307,10 @@ form{
 .con-form{
     margin: 0px;
 }
-.Reach h1{margin-top: 0px;}
+.Reach h1{
+    margin-top: 0px;
+}
+
 /* Login */
 .login{
     /* background-color: rgb(238, 187, 58); */
