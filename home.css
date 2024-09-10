@@ -34,7 +34,7 @@ nav div{
 nav p{
     /* border: 2px solid rebeccapurple; */
     padding: 10px;
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(247, 169, 51);
     font-weight: bold;
 }
@@ -60,7 +60,7 @@ nav a:hover{
 }
 .index-main{
     /* background-color: rgb(245, 183, 27); */
-    background-color: gold;
+    background-color: rgb(228, 181, 61);
 }
 .index-section h3{
     color: red;
@@ -68,7 +68,7 @@ nav a:hover{
     font-size: 30px;
 }
 .index-section span{
-    font-size: 50px;
+    font-size: 30px;
 }
 .index-items{
     display: flex;
@@ -133,7 +133,12 @@ form{
 }
 .signin-form span{
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+.signin-form div a{
+    font-size: 30px;
+    color: rgb(2, 164, 228);
     font-weight: bold;
 }
 .signin-form a{
@@ -142,7 +147,7 @@ form{
     color: rgb(0, 0, 0);
 }
 .signin-form a:hover{
-    color: rgb(255, 255, 0);
+    color: red;
 }
 .signin-form button{
     font-size: 20px;
@@ -154,7 +159,7 @@ form{
 }
 /* About */
 .about-main{
-    background-color: rgb(245, 206, 11);
+    background-color:  rgb(228, 181, 61);
     padding-left: 10px;
     display: flex;
     flex-direction: row;
@@ -179,7 +184,7 @@ form{
 }
 /* Movies page*/
 .movies{
-    background-color: rgb(245, 183, 27);
+    background-color:  rgb(228, 181, 61);
 }
 #Book_tickets{
     background-color: rgb(0, 0, 0);
@@ -221,7 +226,7 @@ form{
     background-repeat: no-repeat;
     background-size:cover;
     margin-bottom: 0px;
-      background-color: gold;
+    background-color:  rgb(228, 181, 61);
 }
 .con{
     display: flex;
@@ -304,6 +309,9 @@ form{
     filter:brightness();
     transform: scale(1.33);
 }
+.Reach .con-form input{
+    padding: 10px 10px 5px 0px;
+}
 .con-form{
     margin: 0px;
 }
@@ -340,6 +348,8 @@ form{
 .login-fieldset button:hover{
     background-color: black;
     color: white;
+    transform: scale(1.19);
+    
 }
 .login-fieldset span{
     text-decoration: underline;
